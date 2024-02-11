@@ -1,0 +1,134 @@
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f8f9fa; /* Set your desired background color */
+}
+
+.my_footer {
+  background-color: #343a40;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+/*** Navbar ***/
+.nav-item,
+.dropdown-item {
+  letter-spacing: 0.1em;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+/*** Category Page ***/
+.my_row_class {
+  padding-top: 15px;
+}
+
+.my_row_class .mx_auto {
+  color: #333;
+  font-size: 14px;
+}
+
+.my_image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.my_title {
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-top: 10px;
+}
+
+.card {
+  background-color: #ff8c00; /* Set your desired card background color */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-body h4 {
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #fff; /* Set your desired text color */
+}
+
+/*** Product Page ***/
+.my_prod_row_class {
+  padding-top: 15px;
+  padding-bottom: 20px;
+}
+
+.my_prod_row_class .mx_auto {
+  color: #333;
+  font-size: 14px;
+}
+
+.my_prod_title {
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+
+.my_prod_text {
+  padding-right: 20px;
+}
+
+.my_search_text {
+  padding-top: 20px;
+}
+
+/*** Cart Page ***/
+.my_custom_table {
+  width: 100%;
+  font-size: 14px;
+  border-collapse: collapse;
+}
+
+.my_custom_table th,
+.my_custom_table td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+
+.my_custom_thead {
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  background-color: #f8f9fa!important;
+}
+
+.custom_a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.custom_icon {
+  text-decoration: none;
+  color: #868e96!important;
+}
+
+.my_custom_button {
+  margin-top: 10px;
+  padding: 8px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.my_custom_button:hover {
+  background-color: #0056b3;
+}
